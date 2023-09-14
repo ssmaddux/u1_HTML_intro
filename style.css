@@ -1,0 +1,54 @@
+body {
+  background-color: aqua;
+}
+
+header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.bttn {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 45%;
+  background-color: rgb(255, 153, 0);
+  border-radius: 60%;
+}
+
+.btn {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 45%;
+  background-color: black;
+  border-radius: 10%;
+  /* -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+}
+
+#image1 {
+  position: relative;
+  left: 650px;
+  margin: 50px;
+  border: 3px solid red;
+  border-radius: 10%;
+  transition: all;
+  transition-delay: 1s;
+  transition-duration: 2s;
+}
+
+#image2 {
+  position: relative;
+  left: 600px;
+  border: 3px solid red;
+  /* filter: grayscale(100%); */
+  filter: invert(100%);
+  transition-duration: 2s;
+}
+
+#image-container {
+  border: 3px solid red;
+  margin: 100px;
+  padding: 10px;
+}
